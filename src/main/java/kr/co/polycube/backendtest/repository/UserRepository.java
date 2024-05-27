@@ -1,4 +1,6 @@
 package kr.co.polycube.backendtest.repository;
 
-public class UserRepository {
-}
+import kr.co.polycube.backendtest.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> { }

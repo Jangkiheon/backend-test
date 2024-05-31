@@ -4,7 +4,12 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.Getter;
+import lombok.Setter;
 
+/**
+ * User 클래스 사용자 정보를 나타내는 엔티티(Entity).
+ */
 @Entity
 public class User {
 
